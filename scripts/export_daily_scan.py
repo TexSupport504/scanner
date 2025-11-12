@@ -14,8 +14,8 @@ from datetime import datetime
 def export_daily_scan():
     """Export latest scan results to single CSV file"""
     
-    db_path = Path(__file__).parent / "data" / "scanner.db"
-    output_file = Path(__file__).parent / "data" / "exports" / "daily_scan_results.csv"
+    db_path = Path(__file__).parent.parent / "data" / "scanner.db"
+    output_file = Path(__file__).parent.parent / "data" / "exports" / "daily_scan_results.csv"
     
     # Ensure exports directory exists
     output_file.parent.mkdir(parents=True, exist_ok=True)
