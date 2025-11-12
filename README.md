@@ -6,7 +6,21 @@ A comprehensive Python-based RSI/ATR scanner for S&P 500 stocks using Interactiv
 
 - **Real-time S&P 500 Stock Scanning**: Connects to Interactive Brokers API for live market data
 - **Technical Analysis**: RSI and ATR calculations with overextended threshold detection
-- **Interactive Dashboard**: Jupyter notebook with clickable filters and visualizations
+### Data Analysis & Backtesting
+- **`scanner_dashboard.ipynb`**: Interactive Jupyter notebook with:
+  - Clickable filter widgets
+  - 6-panel visualization dashboard
+  - Pre-built trading opportunity variables
+  - Export functions
+- **`backtest_system.py`**: Comprehensive backtesting framework
+  - 30% take profit / 25% stop loss testing
+  - Historical performance analysis
+  - Win rate and P&L ratio calculations
+- **`backtest_analysis.ipynb`**: Interactive backtesting dashboard
+  - Visual backtesting analysis
+  - Performance charts and statistics
+  - Export functions for results
+- **`daily_scan_results.csv`**: Main export file (499 stocks, auto-updated)
 - **Data Persistence**: SQLite database with intelligent caching system
 - **Multiple Export Formats**: CSV exports for Data Wrangler integration
 - **Trading Signals**: Automated LONG PUT/CALL opportunity identification

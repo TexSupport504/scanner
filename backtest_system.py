@@ -1,7 +1,7 @@
 """
 Backtesting System for Daily RSI Scanner Recommendations
 
-Tests historical performance of LONG PUT/CALL recommendations with:
+Tests performance of LONG PUT/CALL recommendations with:
 - 30% take profit target
 - 25% stop loss
 - Entry at next day's open
